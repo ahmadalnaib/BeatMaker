@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Beatmaker</title>
+</head>
+<body>
+  <div class="container">
+    <div class="kick-track">
+      <div class="controls">
+        <h1>kick</h1>
+        <button class="mute kick-volume" data-track='0'>
+          <i class="fas fa-volume-mute"></i>
+        </button>
+        <section name="kick-select" id="kick-select">
+          <option value="./allSounds/kick-classic.wav">Classic kick</option>
+          <option value="./allSounds/kick-808.wav">808 kick</option>
+          <option value="./allSounds/kick-big.wav">Big kick</option>
+        </section>
+      </div>
+      <div class="kick">
+        <div class="pad kick-pad b0"></div>
+        <div class="pad kick-pad b1"></div>
+        <div class="pad kick-pad b2"></div>
+        <div class="pad kick-pad b3"></div>
+        <div class="pad kick-pad b4"></div>
+        <div class="pad kick-pad b5"></div>
+        <div class="pad kick-pad b6"></div>
+        <div class="pad kick-pad b7"></div>
+        <div class="pad kick-pad b8"></div>
+
+      </div>
+    </div>
+
+    <div class="snare-track">
+      <div class="controls">
+        <h1>Snare</h1>
+        <button class="mute snare-volume" data-track='1'>
+          <i class="fas fa-volume-mute"></i>
+        </button>
+        <section name="snare-select" id="snare-select">
+          <option value="./allSounds/snare-dist01.wav">snare dist01</option>
+          <option value="./allSounds/snare-808.wav">808 snare</option>
+          <option value="./allSounds/snare-big.wav">snare noise</option>
+        </section>
+      </div>
+      <div class="snare">
+        <div class="pad snare-pad b0"></div>
+        <div class="pad snare-pad b1"></div>
+        <div class="pad snare-pad b2"></div>
+        <div class="pad snare-pad b3"></div>
+        <div class="pad snare-pad b4"></div>
+        <div class="pad snare-pad b5"></div>
+        <div class="pad snare-pad b6"></div>
+        <div class="pad snare-pad b7"></div>
+        <div class="pad snare-pad b8"></div>
+
+      </div>
+    </div>
+
+
+    <div class="hihat-track">
+      <div class="controls">
+        <h1>Hihat</h1>
+        <button class="mute hihat-volume" data-track='1'>
+          <i class="fas fa-volume-mute"></i>
+        </button>
+        <section name="hihat-select" id="hihat-select">
+          <option value="./allSounds/hihat-dist01.wav">hihat dist01</option>
+          <option value="./allSounds/hihat-808.wav">808 hihat</option>
+          <option value="./allSounds/hihat-ring.wav">hihat big</option>
+        </section>
+      </div>
+      <div class="hihat">
+        <div class="pad hihat-pad b0"></div>
+        <div class="pad hihat-pad b1"></div>
+        <div class="pad hihat-pad b2"></div>
+        <div class="pad hihat-pad b3"></div>
+        <div class="pad hihat-pad b4"></div>
+        <div class="pad hihat-pad b5"></div>
+        <div class="pad hihat-pad b6"></div>
+        <div class="pad hihat-pad b7"></div>
+        <div class="pad hihat-pad b8"></div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
